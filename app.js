@@ -79,24 +79,6 @@ function displayWeather(data) {
   `;
 }
 
-const backgroundAudio = document.getElementById("backgroundAudio");
-const playPauseButton = document.getElementById("playPauseButton");
-
-// Event listener for the button click
-playPauseButton.addEventListener("click", togglePlayPause);
-
-// Function to toggle play and pause
-function togglePlayPause() {
-  if (backgroundAudio.paused) {
-    backgroundAudio.play();
-    playPauseButton.innerHTML = "<i class='fa-solid fa-pause'></i>";
-  } else {
-    backgroundAudio.pause();
-    playPauseButton.innerHTML = "<i class='fa-solid fa-play'></i>";
-  }
-}
-
-
 //code for displaying random quotes
 function readQuotesFromFile(filename, callback) {
   fetch(filename)
@@ -122,5 +104,28 @@ function displayRandomQuote() {
       quoteElement.textContent = randomQuote;
     });
 }
+
 // Call the function to display a random quote when the page loads
 displayRandomQuote();
+
+
+
+
+// const backgroundAudio = document.getElementById("backgroundAudio");
+// const playPauseButton = document.getElementById("playPauseButton");
+
+// // Event listener for the button click
+// playPauseButton.addEventListener("click", togglePlayPause);
+
+// // Function to toggle play and pause
+// function togglePlayPause() {
+//   if (backgroundAudio.paused) {
+//     backgroundAudio.play();
+//     playPauseButton.innerHTML = "<i class='fa-solid fa-pause'></i>";
+//   } else {
+//     backgroundAudio.pause();
+//     playPauseButton.innerHTML = "<i class='fa-solid fa-play'></i>";
+//   }
+// }
+
+
