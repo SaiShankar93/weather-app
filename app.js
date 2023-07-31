@@ -114,7 +114,6 @@ displayRandomQuote();
 // const backgroundAudio = document.getElementById("backgroundAudio");
 // const playPauseButton = document.getElementById("playPauseButton");
 
-// // Event listener for the button click
 // playPauseButton.addEventListener("click", togglePlayPause);
 
 // // Function to toggle play and pause
