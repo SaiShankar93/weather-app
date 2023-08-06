@@ -56,7 +56,7 @@ function getWeatherDetails(apiUrl) {
       //function  to display the weather in the weatherinfo div
       displayWeather(data);
     })
-    //handling the errors
+    //handling  errors
     .catch((error) => {
       console.error("Error fetching weather data:", error);
       alert(
