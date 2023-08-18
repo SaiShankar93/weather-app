@@ -116,7 +116,6 @@ displayRandomQuote();
 
 // playPauseButton.addEventListener("click", togglePlayPause);
 
-// // Function to toggle play and pause
 // function togglePlayPause() {
 //   if (backgroundAudio.paused) {
 //     backgroundAudio.play();
@@ -126,5 +125,3 @@ displayRandomQuote();
 //     playPauseButton.innerHTML = "<i class='fa-solid fa-play'></i>";
 //   }
 // }
-
-
