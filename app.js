@@ -28,7 +28,7 @@ function getWeather() {
   getWeatherDetails(apiUrl);
 }
 
-//display weather by using auto detecting the user location
+//display weather by using auto detecting the user's current location
 function currentLocationweather() {
   if ("geolocation" in navigator) {
     navigator.geolocation.getCurrentPosition(
