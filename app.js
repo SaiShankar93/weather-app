@@ -12,7 +12,7 @@ let day = today.toLocaleDateString("en-US", options);
 const displayDay = document.getElementById("date");
 displayDay.innerHTML = day;
 
-//function to get input from the user and checking if location is found.
+//function to get input from  user and checking if location is found.
 function getWeather() {
   const locationInput = document.getElementById("locationInput");
   const location = locationInput.value.trim();
